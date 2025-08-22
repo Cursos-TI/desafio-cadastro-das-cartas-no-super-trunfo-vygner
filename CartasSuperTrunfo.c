@@ -26,13 +26,15 @@ int main() {
     // Carta 1
     printf("Cadastro da Carta 1: \n");
     printf("Digite o Estado: ");
+    // printf imprime a mensagem pedindo a informação
     scanf("%c", &estado1);
+    // scanf lê a entrada e armazena na variável
 
     printf("Digite o Código da Carta (ex.: A01): ");
-    scanf("%s", &codigo1);
+    scanf("%s", codigo1);
 
     printf("Digite o Nome da Cidade: ");
-    scanf("%s", &nomeCidade1);
+    scanf("%s", nomeCidade1);
 
     printf("Digite a População: ");
     scanf("%d", &populacao1);
@@ -44,18 +46,18 @@ int main() {
     scanf("%f", &pib1);
 
     printf("Digite o Número de Pontos Turísticos: ");
-    scanf("%f", &pontosTuristicos1);
+    scanf("%d", &pontosTuristicos1);
 
     // Carta 2
-    printf("\nCadastro da Carta 2\n");
+    printf("\nCadastro da Carta 2 \n");
     printf("Digite o Estado: ");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
 
     printf("Digite o Código da Carta (ex.: A01): ");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Digite o Nome da Cidade: ");
-    scanf("%s", &nomeCidade2);
+    scanf("%s", nomeCidade2);
 
     printf("Digite a População: ");
     scanf("%d", &populacao2);
@@ -67,11 +69,12 @@ int main() {
     scanf("%f", &pib2);
 
     printf("Digite o Número de Pontos Turísticos: ");
-    scanf("%f", &pontosTuristicos2);
+    scanf("%d", &pontosTuristicos2);
     
     // Exibição dos Dados das Cartas:
     // Exibindo os valores inseridos para cada carta, um por linha, utilizando o printf
-    printf("\n \nCarta 1");
+    // Carta 1
+    printf("\nCarta 1 \n");
     printf("Estado: %c\n", estado1);
     printf("Código da Carta: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
@@ -80,7 +83,8 @@ int main() {
     printf("PIB: %.2f bilhões de reias\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
 
-    printf("\n Carta 2");
+    // Carta 2
+    printf("\nCarta 2 \n");
     printf("Estado: %c\n", estado2);
     printf("Código da Carta: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
